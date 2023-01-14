@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+    <!--配置mapper-->
+    <bean id="empMapper" class="com.wak.di.setter.mapper.EmployeeMapperImpl"/>
+    <bean id="userMapper" class="com.wak.di.setter.mapper.UserMapperImpl"/>
+    <!--配置service-->
+    <bean id="empService" class="com.wak.di.setter.service.impl.EmployeeServiceImpl">
+        <property name="empMapper" ref="empMapper"/>
+        <property name="userMapper" ref="userMapper"/>
+        <property name="name" value="wak"/>
+        <property name="age" value="18"/>
+    </bean>
+</beans>

@@ -3,6 +3,11 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="student" name="stu" class="com.wak.domain.Student"/>
-
+    <bean id="student" name="stu" class="com.wak.ioc.domain.Student"/>
+    <bean id="person" class="com.wak.ioc.domain.Person"/>
+    <bean id="clientServer" class="com.wak.ioc.domain.ClientServer" factory-method="createInstance"/>
+    <bean id="clientServiceFactory" class="com.wak.ioc.domain.ClientServiceFactory"/>
+    <bean id="clientService" class="com.wak.ioc.domain.ClientService" factory-bean="clientServiceFactory"
+          factory-method="getInstance"/>
+    <bean id="employee" class="com.wak.ioc.domain.EmployeeFactory"/>
 </beans>
