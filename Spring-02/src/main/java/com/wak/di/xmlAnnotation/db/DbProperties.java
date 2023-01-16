@@ -9,9 +9,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class DbProperties {
 
-    @Value("${username}")
+    @Value("${jdbc.username}")
     private String username;
-    @Value("${password}")
+    @Value("${jdbc.password}")
     private String password;
 
     public void print() {

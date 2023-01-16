@@ -3,7 +3,6 @@ package com.wak.di.xmlAnnotation.service.impl;
 import com.wak.di.xmlAnnotation.mapper.EmployeeMapper;
 import com.wak.di.xmlAnnotation.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 /**
