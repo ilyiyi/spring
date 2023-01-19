@@ -5,5 +5,9 @@
     <file url="file://$PROJECT_DIR$/Spring-01/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-02/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cglib-proxy-03/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cglib-proxy-03/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jdk-proxy-02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jdk-proxy-02/src/main/resources" charset="UTF-8" />
   </component>
 </project>
