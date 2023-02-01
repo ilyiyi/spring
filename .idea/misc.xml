@@ -5,6 +5,11 @@
     <option name="USE_PROJECT_LEVEL_SETTINGS" value="false" />
     <list size="0" />
   </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springmvc-01-web" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc-02-annotation" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc-03-response" />
+  </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
@@ -17,6 +22,11 @@
         <option value="$PROJECT_DIR$/static-proxy-01/pom.xml" />
         <option value="$PROJECT_DIR$/jdk-proxy-02/pom.xml" />
         <option value="$PROJECT_DIR$/cglib-proxy-03/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-03/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-03-tx/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-01-web/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-02-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc-03-response/pom.xml" />
       </list>
     </option>
   </component>
