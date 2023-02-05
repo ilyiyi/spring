@@ -9,20 +9,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springmvc-02-annotation" />
+        <module name="Spring-03-tx" />
+        <module name="Spring-02-1" />
         <module name="static-proxy-01" />
+        <module name="springmvc-03-response" />
+        <module name="jdk-proxy-02" />
+        <module name="cglib-proxy-03" />
+        <module name="SpringProject" />
         <module name="Spring-03" />
         <module name="Spring-02" />
         <module name="Spring-01" />
-        <module name="cglib-proxy-03" />
         <module name="springmvc-01-web" />
-        <module name="Spring-02-1" />
-        <module name="springmvc-03-response" />
-        <module name="Spring-03-tx" />
-        <module name="jdk-proxy-02" />
+        <module name="ssm" />
+        <module name="FirstSpringBoot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="cglib-proxy-03" target="1.8" />
+      <module name="FirstSpringBoot" target="1.8" />
       <module name="jdk-proxy-02" target="1.8" />
       <module name="Spring-01" target="1.8" />
       <module name="Spring-02" target="1.8" />
@@ -32,7 +36,14 @@
       <module name="springmvc-01-web" target="1.8" />
       <module name="springmvc-02-annotation" target="1.8" />
       <module name="springmvc-03-response" target="1.8" />
+      <module name="SpringProject" target="1.8" />
+      <module name="ssm" target="1.8" />
       <module name="static-proxy-01" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="FirstSpringBoot" options="-parameters" />
+    </option>
   </component>
 </project>
